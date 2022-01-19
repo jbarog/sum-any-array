@@ -78,7 +78,6 @@ console.log(sum);
 4
 */
 ```
-sumArray(['a','b','ee'], x=>x.length)
 ## License
 MIT
 
