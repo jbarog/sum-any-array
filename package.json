@@ -1,0 +1,33 @@
+{
+  "name": "sum-any-array",
+  "version": "1.0.0",
+  "description": "Sum plain arrays and object arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./ --ext .js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbarog/sum-any-array.git"
+  },
+  "keywords": [
+    "reduce",
+    "integer",
+    "object",
+    "parse"
+  ],
+  "author": "jbarog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbarog/sum-any-array/issues"
+  },
+  "homepage": "https://github.com/jbarog/sum-any-array#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "jest": "^27.4.5"
+  }
+}
