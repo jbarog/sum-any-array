@@ -1,12 +1,12 @@
 /* eslint-disable no-undef */
-import {
+const {
   DEFAULT_PLAIN_DISTRIBUTION,
   DEFAULT_OBJECT_DISTRIBUTION,
   EXPECTED_SUM,
   defaultObjectParser,
-} from './test-objects';
+} = require('./test-objects');
 
-import sumArray from '../src/sum-array';
+const sumArray = require('../src/sum-array');
 
 describe('test sumArray', () => {
   test('should return sum plain array', async () => {

@@ -21,7 +21,7 @@ and other type of content like object arrays
 ### sumArray
 This method sums an array that could be an array of objects if parse function is provided.
 ```javascript
-import { sumArray } from 'round-discrete-population';
+const sumArray = require('sum-any-array');
 
 const numberArray = [1, 4, 2, 3];
 
@@ -34,7 +34,7 @@ console.log(sum);
 ```
 Using object array:
 ```javascript
-import { sumArray } from 'round-discrete-population';
+const sumArray = require('sum-any-array');
 
 const objArray = [
       {
@@ -66,7 +66,7 @@ console.log(sum);
 
 Using string array:
 ```javascript
-import { sumArray } from 'round-discrete-population';
+const sumArray = require('sum-any-array');
 
 const strArray = ['a','b','ee'],;
 const strLength = (str) => str.length;
